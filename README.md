@@ -15,7 +15,7 @@
       ```cmd
       kubectl cluster-info 
       ``` 
-   3. Pull the Jenkins Helm chart from a repository.  
+   3. Pull the Jenkins Helm chart from a repository! 
       ```cmd
       helm repo add jenkinsci https://charts.jenkins.io
       helm repo update
