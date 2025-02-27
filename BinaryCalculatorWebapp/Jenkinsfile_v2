@@ -16,7 +16,7 @@ pipeline {
             kind: Pod
             metadata:
             labels: 
-              component: ci
+              component: "ci"
             spec:
               containers:
               # Use service account that can deploy to all namespaces
